@@ -12,4 +12,4 @@ _G.AutoChat = true -- Writes 3 messages after the round is activated (I did it s
 _G.AutoWalk = true -- At the beginning of the round your character will automatically go through a few steps (I did it so people wouldn't report you for afk)
 
 -- Do not change anything under this line, if you change the script will not work ;) --
-loadstring(game:HttpGet("https://pastebin.com/raw/f4nGQya5"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/banbuskox/Scripts/master/AutoFarm%20TDS"))()

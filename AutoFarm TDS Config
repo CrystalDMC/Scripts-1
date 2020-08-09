@@ -1,0 +1,15 @@
+_G.Mode = 1 -- (Change this) 0 = only auto skip waves, 1 = AutoFarm, 2 = Off
+------ Options for AutoFarm! ------
+_G.WaitTime = 10 -- Increase if your game loads slowly
+_G.Difficulty = "Insane" -- "Easy","Normal","Hard","Insane"
+_G.RoundSkip = true -- Votes to skip to the next round
+_G.SoloPlay = true -- Only joins empty elevators
+_G.AutoChat = true -- Writes 3 messages after the round is activated (I did it so people wouldn't report you for afk)
+	_G.SecondsBetweenMessages = 10 -- Set the interval between sending messages
+	_G.AutoChatMessage1 = "Hello" -- Message 1
+	_G.AutoChatMessage2 = "I'm not gonna put anything because I'm just collecting xp" -- Message 2
+	_G.AutoChatMessage3 = "Don't ask me anything because I won't answer." -- Message 3
+_G.AutoWalk = true -- At the beginning of the round your character will automatically go through a few steps (I did it so people wouldn't report you for afk)
+
+-- Do not change anything under this line, if you change the script will not work ;) --
+loadstring(game:HttpGet("https://pastebin.com/raw/f4nGQya5"))()
